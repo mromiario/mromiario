@@ -1,0 +1,279 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.title{
+    position: sticky;  
+    background-image: url(london-museum-history-wallpaper-by-joshua-jackson-iltwmt.jpg);
+    background-color: black;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 20px;
+    color: white;
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center; 
+ 
+}
+.title h1{   
+    padding-top: 250px;
+}
+
+.title h2{
+    padding-bottom: 170px;
+}
+.title h1,.title h2{
+
+    background-color: black;
+    opacity: 0.7;
+  
+}
+
+.menu ul{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-left: 50px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+.menu ul li{
+    display: inline;
+    padding: 20px;
+
+}
+
+.menu ul li a:hover, .menu ul li a:active{
+    font-size: 150%;
+}
+
+.content{
+    display: inline-block;
+    position: sticky;
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 200px;
+    width:49.8%;
+    opacity: 0.8;
+    text-align: center;
+}
+.portofolio{
+    background-image: url(./hero.jpg);
+
+
+}
+.content h1{
+    padding-top: 70px;
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
+.content:hover,.content:active{
+    opacity: 1;
+    font-size: 150%;
+}
+
+.part{
+    background-image: url(./DSCF3263.JPG);
+    
+}
+
+.blog{
+    background-image: url(./four-seasons-trinity-exterior-l-xlarge.jpg.jp2);
+    
+}
+
+.ext{
+    background-image: url(./TRI_063_aspect16x9.jpg);
+    background-position: 50% 50%;
+    
+}
+
+.li-content ul li{
+    display: inline;
+    padding-bottom: 50px;
+
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color:black;
+    height: 20px; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*EXT*/
+.cext{
+    background-size: 110px 110px;
+    background-position-x: 100px;
+    width: 16.43%
+    
+}
+
+.Github{
+    background-image: url(./github.png);
+    background-color: rgb(12, 72, 141);
+    background-size: 50%;
+    background-position: 30% 30%;
+}
+.linkedin{
+    background-image: url(./linkedin.png);
+    background-color: rgb(147, 188, 235);
+    background-size: 50%;
+    background-position: 30% 30%;
+}
+.mail{
+    background-image: url(./letter.png);
+    background-color: rgb(229, 231, 116);
+    background-size: 50%;
+    background-position: 30% 30%;
+}
+.ig{
+    background-image: url(./instagram.png);
+    background-color: rgb(65, 12, 75);
+    background-size: 50%;
+    background-position: 30% 30%;
+}
+.twit{
+    background-image: url(./twitter.png);
+    background-color: rgb(11, 106, 214);
+    background-size: 50%;
+    background-position: 30% 30%;
+}
+.blg{
+    background-image: url(./blogger.png);
+    background-color: rgb(238, 129, 66);
+    background-size: 50%;
+    background-position: 30% 30%;
+}
+
+#maail{
+    display: none;
+    font-size: 20px;
+}
+
+.mail :hover + #maail{
+  display: inline;
+}
+
+.it{
+    background-image: url(./TechOps-iStock-861911300.jpg);
+    background-position: 60% 80%;
+    opacity: 1;
+}
+.poto{
+    background-image: url(./pho.jpg);
+    opacity: 1;
+}
+h2{
+    color: white;
+   width: 100%;
+}
+.cpart{
+
+   padding-top: 50px;
+
+}
+
+.contact{
+    width:100%;
+background-image: url(./london-museum-history-wallpaper-by-joshua-jackson-iltwmt.jpg);
+   background-position: 60% 80%;
+   color: white;
+}
+
+.c-blog{
+    width: 24.78%;
+
+}
+
+.satu{
+    background-image: url(./IMG_20180810_141213.jpg);
+    background-position: 40% 30%;
+
+}
+
+.dua{
+    background-image: url(./02.jpg);
+    background-position: 40% 30%;
+}
+
+.tiga{
+    background-image: url(./03.jpg);
+    background-position: 50% 30%;
+}
+
+.empat{
+    background-image: url(./04.jpg);
+    background-position: 50% 30%;
+    background-size: 100% ;}
+
+.lima{
+    background-image: url(./05.jpg);
+    background-position: 50% 30%;
+    background-size: 100% ;}
+
+.enam{
+    background-image: url(./06.jpg);
+    background-position: 60% 60%;
+    background-size: 100% ;}
+
+.tujuh{
+    background-image: url(./07.jpg);
+    background-size: 100% ;}
+
+
+.dua a p, .lima a p, .tujuh a p{
+    color:white;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+}
+
+#one, #two, #three, #four, #five, #six, #seven{
+    display: none;
+    font-size: 18px;
+}
+.satu :hover + #one{
+    display: inline;
+}
+
+.dua :hover + #two{
+    display: inline;
+}
+
+.tiga :hover + #three{
+    display: inline;
+}
+
+.empat :hover + #four{
+    display: inline;
+}
+
+.lima :hover + #five{
+    display: inline;
+}
+
+.enam :hover + #six{
+    display: inline;
+}
+.tujuh :hover + #seven{
+    display: inline;
+}
+
+.title a:hover, .title a:active{
+    color: white;
+}
