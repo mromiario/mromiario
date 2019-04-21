@@ -3,28 +3,7 @@
     padding: 0;
 }
 
-@media (min-width:280px) and (max-width:1080px){
-    .content{
-        width:100%;
-    }
-    .menu ul li{
-        display: block;
-        text-align: center;
-        font-size:30px;
-        
-    }
 
-    #one, #two, #three, #four, #five, #six, #seven{
-        display: inline-block;
-        font-size: 18px;}
-
-    .title h2{
-        font-size: 18px;
-    }
-    .title h1{
-        font-size: 36px;
-    }
-}
 .title{
     position: sticky;  
     background-image: url(london-museum-history-wallpaper-by-joshua-jackson-iltwmt.jpg);
@@ -303,7 +282,38 @@ background-image: url(./london-museum-history-wallpaper-by-joshua-jackson-iltwmt
 
 .csoon{
     width:100%;
-    background-color: rgb(182, 37, 37);
+    background-color: rgb(170, 29, 29);
     background-position: 70% 50%;
-    background-size: 100%
+    background-size: 100%;
+    text-decoration : none;
+    color: white;
+    padding-top: 5%; 
+    font-size: 40px;
+}
+
+@media (min-width:320px) and (max-width:1080px){
+    .content{
+        width:100%;
+    }
+    .menu ul li{
+        display: block;
+        text-align: center;
+        font-size:30px;
+        
+    }
+
+    #one, #two, #three, #four, #five, #six, #seven{
+        display: inline-block;
+        font-size: 18px;}
+
+    .title h2{
+        font-size: 18px;
+    }
+    .title h1{
+        font-size: 20px;
+    }
+    .csoon{
+        padding-top: 10%; 
+        font-size: 30px;
+    }
 }
