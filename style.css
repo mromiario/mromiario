@@ -292,4 +292,11 @@ background-image: url(./london-museum-history-wallpaper-by-joshua-jackson-iltwmt
     #one, #two, #three, #four, #five, #six, #seven{
         display: inline-block;
         font-size: 18px;}
+
+    .title h2{
+        font-size: 18px;
+    }
+    .title h1{
+        font-size: 36px;
+    }
 }
