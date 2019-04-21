@@ -283,7 +283,7 @@ background-image: url(./london-museum-history-wallpaper-by-joshua-jackson-iltwmt
     background-color: rgb(182, 37, 37);
     background-position: 70% 50%;
     background-size: 100% ;}
-}
+
 @media (min-width:280px) and (max-width:1080px){
     .content{
         width:100%;
